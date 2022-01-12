@@ -1,0 +1,193 @@
+/*CSS*/
+
+body, html { /*Main*/
+    background-color: hsl(0, 0%, 100%);
+  font-family: Helvetica, sans-serif;
+  font-size: 11pt;
+  text-align: left;
+  display: flex
+
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+
+}
+
+div.page_header img { /*Imagen Etherum LOGO*/
+  top: 120 px; /* ajustar los valores para mover la imagen */
+  left: 830px;
+  width: 90;
+  border-radius: 50%;
+  margin: 30%;
+  border:2px solid #fff;
+  display: flex
+  
+}
+
+header ul { /*UL MENU*/
+    list-style: none;
+  top: 120 px; /* ajustar los valores para mover la imagen */
+  left: 830px;
+  width: 90;
+  border-radius: 50%;
+  margin: 30%;
+    text-align: center;
+  display: flex
+
+}
+
+article {
+    padding: 50px 15px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+
+}
+
+article > *:first-child {
+    margin-top: 0;
+
+}
+
+header li {
+    display: inline;
+    vertical-align:center;
+    text-align: left;
+    display: flex
+
+}
+
+header li:first-child {
+    margin: 0;
+
+}
+
+header li a {
+    margin: 0 10px;
+
+}
+
+header li.logo {
+    font-size: 36px;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+li a {
+  color: rgb(91, 134, 255);
+
+}
+
+div.content_section { /*Cuadros a color*/
+  margin: 50px 0px 0px;
+  background-color: #FFFFFF;
+  text-align: left;
+  
+}
+
+div.content_section_text { /* Texto descripción */
+  padding: 4px 8px 4px 8px;
+  color: #4b4b4b;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.section_header {
+  background-color: hsl(0, 0%, 97%);
+  width: 1000px; 
+    height:125px;
+  color: #575757;
+  font-weight: normal;
+  font-size: 115%;
+  padding: 40px ;
+  text-align: center;
+
+}
+
+div.images_edit {
+ padding: 40px ;
+
+}
+
+div.table_of_contents_item a:hover {
+  background-color: #000000;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+
+}
+
+blockquote { /* blockquote */
+ background: #f9f9f9;
+ border-left: 10px solid rgb(60, 112, 255);
+ margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+
+}
+
+blockquote p {
+  display: inline;
+
+}
+
+hr.solid { /* Solid border */
+  border-top: 1px solid rgb(230, 230, 230);
+  margin: 50px;
+
+}
+
+div.relative { /* Image ETHEREUM POSITION*/
+  position: relative;
+  color: #8a8a8a;
+  font-style: italic;
+  font-family: monospace
+  
+  
+  
+}
+
+/*ASIDE*/
+
+aside {
+    background: #FAFAFA;
+
+}
+
+aside p {
+    border: 1px solid #bbb;
+    background: #ddd;
+    color: black;
+}
+
+/*FOOTER*/
+footer a {
+    color: rgba(255, 66, 66, 0.8);
+  padding: 5px 15px;
+    height: 80px;
+}
+
+a {
+    color: #000000;
+}
